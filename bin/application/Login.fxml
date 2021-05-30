@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="274.0" prefWidth="564.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LoginController">
+   <children>
+      <ImageView fitHeight="274.0" fitWidth="295.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="269.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../../Resimler/haydikampa.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="290.0" layoutY="36.0" text="Kullanıcı Adı:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      
+       
+      <TextField fx:id="txtadi" layoutX="386.0" layoutY="36.0" promptText="Kullanıcı Adı" />
+      <PasswordField fx:id="txtsifre" layoutX="386.0" layoutY="73.0" promptText="Şifre" />
+      <Button fx:id="btnGirisYap" layoutX="397.0" layoutY="155.0" mnemonicParsing="false" onAction="#btnClickGirisYap" prefHeight="25.0" prefWidth="127.0" styleClass="Button" stylesheets="@application.css" text="Giriş Yap" />
+      <Button fx:id="btnKayıtOl" layoutX="423.0" layoutY="206.0" mnemonicParsing="false" onAction="#btnClickKayıtOl" prefHeight="25.0" prefWidth="76.0" styleClass="Button" stylesheets="@application.css" text="Kayıt Ol" />
+      <CheckBox layoutX="294.0" layoutY="162.0" mnemonicParsing="false" text="Beni Hatırla" />
+      <Label fx:id="lblSonuc" layoutX="289.0" layoutY="271.0" text="Label" textFill="#e80505" visible="false" />
+      <Label layoutX="294.0" layoutY="73.0" text="Şifre:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

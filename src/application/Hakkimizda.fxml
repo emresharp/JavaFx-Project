@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Hakkimizda">
+   <children>
+      <Label layoutX="29.0" layoutY="44.0" text="Bu otomasyon İskenderun Teknik Üniversitesi Bilgisayar Mühendisliği Nesne Tabanlı">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="85.0" text="Programlama Uygulamaları dersi kapsamında Aktivite Tatili Otomasyonu önerisiyle">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="123.0" text="161123009 numaralı Emre Keskin isimli öğrenci tarafından 30.05.2021 tarihinde yapılmıştır.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="308.0" text="emresharp.com">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="283.0" text="Emre Keskin">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="336.0" text="https://github.com/emresharp/JavaFx-Project">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
